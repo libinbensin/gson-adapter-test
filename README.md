@@ -27,7 +27,7 @@ public class TestClassC {
 }
 
 
-#Finally , create custom adpters
+#Finally , create custom adapters
     
     public class TestClassAAdapter extends TypeAdapter<TestClassA>{
     @Override
