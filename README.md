@@ -28,7 +28,8 @@ public class TestClassC {
 
 
 #Finally , create custom adpters
-public class TestClassAAdapter extends TypeAdapter<TestClassA>{
+    
+    public class TestClassAAdapter extends TypeAdapter<TestClassA>{
     @Override
     public void write(JsonWriter out, TestClassA value) throws IOException {
         out.beginObject();
